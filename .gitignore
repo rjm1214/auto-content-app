@@ -1,0 +1,16 @@
+# ── dependencies ───────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ── local env files ────────────────────────────
+.env
+.env.*.local
+
+# ── build output ───────────────────────────────
+dist/
+build/
+output/
+
+# ── IDE settings ───────────────────────────────
+.vscode/
+.idea/
