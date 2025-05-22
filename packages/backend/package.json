@@ -6,7 +6,18 @@
   "scripts": {
     "dev": "node src/index.js"
   },
-  "dependencies":{
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
     "fastify": "^4.26.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  },
+  "scripts": {
+    "dev": "node src/index.js",
+    "db:migrate": "prisma migrate dev --name init",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio"
   }
 }
+
